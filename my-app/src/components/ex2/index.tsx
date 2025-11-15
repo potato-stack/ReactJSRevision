@@ -1,5 +1,5 @@
 import { createRoot, type Root } from "react-dom/client";
-import { App } from "./components/app";
+import { MainPage } from "./mainpage";
 
 const root: Root = createRoot(document.getElementById("root")!);
-root.render(<App />);
+root.render(<MainPage />);

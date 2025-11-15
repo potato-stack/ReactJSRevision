@@ -1,0 +1,80 @@
+main {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  font-family: "inter";
+  border-color: grey;
+}
+
+.tour-infomation {
+	width: 100%;
+	height: 207px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	padding: 3.27% 7.4%;
+}
+
+.tour-infomation img {
+	width: 26.5%;
+	height: 100%;
+	padding: 0.3%;
+	box-sizing: border-box;
+	margin: 0% 3.27% 0% 0%;
+	border-radius: 5px;
+}
+
+.tour-infomation .tour-icon{
+	color: red;
+}
+
+.tour-infomation .tour-location {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 10.24px;
+}
+
+.tour-infomation-detail .tour-location-name {
+	margin-right: 11px;
+}
+
+.tour-infomation .tour-infomation-detail {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 4.2% 0%;
+}
+
+.tour-infomation .tour-time {
+	font-weight: 700;
+	font-size: 10.24px;
+}
+
+.tour-infomation .tour-description {
+	line-height: 150%;
+	font-weight: 400;
+	font-size: 10.24px;
+}
+
+.tour-infomation .tour-name {
+	font-weight: 700;
+	font-size:  25px;
+	line-height: 100%;
+	margin-bottom: 17px;
+	margin-top: 4px;
+}
+
+.tour-infomation-detail .tour-description {
+	padding: 10px 0px;
+	box-sizing: content-box;
+}
+
+hr.seperator {
+	width: 85.2%;
+	border-color: #F5F5F5;
+	margin: 0 auto;
+}

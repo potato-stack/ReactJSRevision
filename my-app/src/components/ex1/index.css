@@ -11,8 +11,11 @@
 }
 
 main {
-  padding: 2rem 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+  padding: 2rem 1rem;
+  background-image: url(/src/assets/react.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
 }
 
 .index-header > img {
@@ -34,22 +37,21 @@ main {
 }
 
 .main-list {
-  list-style-type: none;
+  list-style-type: disc;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.main-list-items {
+.main-list > .main-list-items {
   margin-right: 2rem;
   color: white;
   padding: 0.2rem;
   font-size: 1.5rem;
 }
 
-.main-list-items::before {
-  content: "•";
-  color: #5bd4fc;
+.main-list > .main-list-items::marker {
+  color: #61dafb;
   margin-right: 0.5rem;
   font-size: 2rem;
 }

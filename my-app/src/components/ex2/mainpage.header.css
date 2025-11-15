@@ -1,0 +1,26 @@
+header {
+  height: 55px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f55a5a;
+  font-family: "inter";
+  margin-bottom: 10px;
+}
+
+header > .Header-title {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44%;
+  width: 26%;
+  font-size: 90%;
+  font-weight: 500;
+}
+
+header .fa-earthamericas-icon {
+  height: 100%;
+  width: auto;
+}
